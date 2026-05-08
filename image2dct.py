@@ -3,11 +3,11 @@ import numpy as np
 from PIL import Image
 from scipy.fft import dctn
 
-input_dir = Path("grayscale_100x100_images_test")
-output_dir = Path("dct_results_100x100_test")
+input_dir = Path("img50x50")
+output_dir = Path("dct50x50")
 output_dir.mkdir(exist_ok=True)
 
-for i in range(10001, 10101):
+for i in range(1, 101):
     img_path = input_dir / f"image_{i:05d}.jpg"
     
     img = Image.open(img_path).convert("L")
