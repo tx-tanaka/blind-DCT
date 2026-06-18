@@ -4,7 +4,7 @@ Blind reconstruction of the original grayscale images from the magnitude-only di
 
 ## Execution
 
-1. Download image samples
+1. Download image samples 
 
 Run `collectimages.ipynb` to download grayscale image samples from [Lorem Picsum](https://picsum.photos). This operation downloads 10,000 samples of 50x50 greyscale image data for training, and 100 samples of 50x50 greyscale image data for testing. They will be saved in `img50x50/` and `img50x50_test/`. 
 
