@@ -1,12 +1,12 @@
-# Blind DCT
+# Blind DCT/DFT
 
-Blind reconstruction of the original grayscale images from the magnitude-only discrete cosine transform (DCT) arrays.
-
-## Execution
+Blind reconstruction of the original grayscale images from the magnitude-only discrete cosine transform (DCT) or discrete Fourier Transform (DFT) arrays.
 
 1. Download image samples 
 
-Run `collectimages.ipynb` to download grayscale image samples from [Lorem Picsum](https://picsum.photos). This operation downloads 10,000 samples of 50x50 greyscale image data for training, and 100 samples of 50x50 greyscale image data for testing. They will be saved in `img50x50/` and `img50x50_test/`. 
+Run `collect_images.ipynb` to download grayscale image samples from [Lorem Picsum](https://picsum.photos). This operation downloads 10,000 samples of 200x200 grayscale image data for training, and 100 samples of 200x200 grayscale image data for testing. They will be saved in `img200x200/` and `img200x200_test/`. 
+
+## Blind inverse DCT experiment
 
 2. Generate magnitude-only DCT arrays
 
